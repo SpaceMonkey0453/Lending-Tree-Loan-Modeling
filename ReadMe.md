@@ -7,7 +7,7 @@ In this project, we developed a machine learning model using XGBoost and SMOTE-E
 
 # Dataset
 The dataset used in this project consists of Lending Club's loan data from 2016 to 2018, including 521,435 records and 95 features. The target variable is the loan status, which indicates whether the loan was paid off fully or defaulted. The dataset is highly imbalanced, with 72% of loans paid off fully and 27% defaulting.
-
+![Confusion Matrix](./images/confusion_matrix.png)
 # Methodology
 To address the class imbalance issue, we used SMOTE-ENN to oversample the minority class and undersample the majority class. We also applied feature engineering techniques, such as one-hot encoding and feature scaling, to prepare the data for modeling.
 
